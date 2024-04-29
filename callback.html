@@ -1,0 +1,6 @@
+// Extrair parâmetros da URL
+const urlParams = new URLSearchParams(window.location.search);
+const code = urlParams.get('code');
+
+// Enviar o código de autorização para o servidor para trocar por tokens de acesso
+// Aqui você implementaria a lógica para trocar o 'code' por tokens de acesso usando a API do Spotify
